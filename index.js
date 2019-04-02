@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const app = express()
 const router = express.Router()
-const port = 3000
+const port = 80
 
 router.get('/health', (req, res) => res.send('Hello World!'))
 
